@@ -1,0 +1,28 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+packages/
+TestResults/
+
+# Node
+node_modules/
+dist/
+build/
+coverage/
+*.log
+
+# Local config / secrets (never commit)
+.env*.local
+appsettings.*.local.json
+
+# IDE / OS
+.vs/
+.idea/
+.vscode/*
+!.vscode/settings.json
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
